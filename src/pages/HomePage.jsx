@@ -241,23 +241,7 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                {/* Number indicators 1 2 3 4 5 */}
-                {/* <div className="absolute top-5 right-5 z-[4] flex items-center gap-2">
-                  {slides.map((_, i) => (
-                    <button
-                      key={i}
-                      onClick={() => setHeroIndex(i)}
-                      className={`flex items-center justify-center rounded-full text-[10px] font-bold transition-all duration-300 ${
-                        i === heroIndex
-                          ? 'w-7 h-7 bg-[#F5C518] text-black shadow-lg shadow-[#F5C518]/20'
-                          : 'w-7 h-7 bg-white/15 text-white/50 hover:bg-white/25 hover:text-white/70 backdrop-blur-sm'
-                      }`}
-                    >
-                      {i + 1}
-                    </button>
-                  ))}
-                </div> */}
-
+            
                 {/* Progress bar */}
                 <div className="absolute bottom-0 left-0 right-0 z-[4] h-[3px] bg-white/10">
                   <div
